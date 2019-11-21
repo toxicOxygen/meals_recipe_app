@@ -14,6 +14,7 @@ class FavoritesScreen extends StatelessWidget {
         child: Text(
           "Youd don't have any favorites yet",
           style: Theme.of(context).textTheme.display1,
+          textAlign: TextAlign.center,
         ),
       ),
     ):ListView.builder(
